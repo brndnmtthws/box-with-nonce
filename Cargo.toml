@@ -1,0 +1,10 @@
+[package]
+name = "box-with-nonce"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dryoc = { version = "0.4.3", features = ["serde"] }
+rmp-serde = "1.1.1"
+serde = "1.0.152"
+serde_json = "1.0.93"
